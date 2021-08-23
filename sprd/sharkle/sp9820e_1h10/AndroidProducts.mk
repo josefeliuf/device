@@ -18,3 +18,7 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/sp9820e_1h10_k_native.mk \
     $(LOCAL_DIR)/sp9820e_1h10_k_4m_native.mk
+
+COMMON_LUNCH_CHOICES := \
+    sp9820e_1h10_k_native-userdebug \
+    sp9820e_1h10_k_4m_native-userdebug
