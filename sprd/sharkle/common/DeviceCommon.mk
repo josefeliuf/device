@@ -416,7 +416,6 @@ endif # BUILD_SPRD_CUSTOM_ANDROID
 
 ifneq ($(strip $(wildcard vendor/sprd/modules/radiointeractor/Android.mk)),)
     PRODUCT_PACKAGES += radio_interactor_service
-    PRODUCT_BOOT_JARS += radio_interactor_common
     PRODUCT_PACKAGES += radio_interactor_common
 endif
 
