@@ -410,7 +410,7 @@ $(call inherit-product, build/target/product/verity.mk)
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system
 endif
 
-$(call inherit-product, gonk-misc/b2g.mk)
+$(call inherit-product, mozilla-b2g/gonk-misc/b2g.mk)
 
 endif # BUILD_SPRD_CUSTOM_ANDROID
 
